@@ -1,6 +1,7 @@
 body {
     padding-top: 800px;
     margin: 0;
+    text-align: center;
 }
 
 .profile {
@@ -69,15 +70,16 @@ p{
 .menu{
     list-style: none;
     font-family: 'Style Script', cursive;
-    position: absolute;
+    position:fixed;
     top: 10px;
     right: 30px;
     z-index: 10;
-    cursor: pointer
+    cursor: pointer;
 }
 .links{
     float: left;
-    color: antiquewhite;
+    background-color: beige;
+    color: black;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left:9px;
@@ -86,5 +88,14 @@ p{
     font-size: 20px;
 }
 .links:hover{
-    background-color: beige;
+    background-color:white;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+font-size: 30px;
+}
+.article:hover{
+    color:antiquewhite;
 }
